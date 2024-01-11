@@ -1,0 +1,496 @@
+[01:12:53] [main/INFO]: Loading Minecraft 1.20.4 with Fabric Loader 0.15.1
+[01:12:53] [main/INFO]: Dependencies overridden for lithium, sodium, immediatelyfast, indium
+[01:12:54] [main/INFO]: Loading 75 mods:
+	- c2me 0.2.0+alpha.11.38
+	   |-- c2me-base 0.2.0+alpha.11.38
+	   |-- c2me-client-uncapvd 0.2.0+alpha.11.38
+	   |-- c2me-fixes-chunkio-threading-issues 0.2.0+alpha.11.38
+	   |-- c2me-fixes-general-threading-issues 0.2.0+alpha.11.38
+	   |-- c2me-fixes-worldgen-threading-issues 0.2.0+alpha.11.38
+	   |-- c2me-fixes-worldgen-vanilla-bugs 0.2.0+alpha.11.38
+	   |-- c2me-notickvd 0.2.0+alpha.11.38
+	   |-- c2me-opts-allocs 0.2.0+alpha.11.38
+	   |-- c2me-opts-chunk-access 0.2.0+alpha.11.38
+	   |-- c2me-opts-chunkio 0.2.0+alpha.11.38
+	   |-- c2me-opts-math 0.2.0+alpha.11.38
+	   |-- c2me-opts-scheduling 0.2.0+alpha.11.38
+	   |-- c2me-opts-worldgen-general 0.2.0+alpha.11.38
+	   |-- c2me-opts-worldgen-vanilla 0.2.0+alpha.11.38
+	   |-- c2me-rewrites-chunk-serializer 0.2.0+alpha.11.38
+	   |-- c2me-rewrites-chunkio 0.2.0+alpha.11.38
+	   |-- c2me-server-utils 0.2.0+alpha.11.38
+	   |-- c2me-threading-chunkio 0.2.0+alpha.11.38
+	   |-- c2me-threading-lighting 0.2.0+alpha.11.38
+	   |-- c2me-threading-worldgen 0.2.0+alpha.11.38
+	   |-- com_electronwill_night-config_core 3.6.5
+	   |-- com_electronwill_night-config_toml 3.6.5
+	   |-- com_ibm_async_asyncutil 0.1.0
+	   |-- net_objecthunter_exp4j 0.4.8
+	   \-- org_threadly_threadly 7.0
+	- cloth-config 13.0.114
+	   \-- cloth-basic-math 0.6.1
+	- fabric-api 0.91.3+1.20.4
+	   |-- fabric-api-base 0.4.35+78d798af4f
+	   |-- fabric-api-lookup-api-v1 1.6.45+78d798af4f
+	   |-- fabric-biome-api-v1 13.0.15+78d798af4f
+	   |-- fabric-block-api-v1 1.0.14+78d798af4f
+	   |-- fabric-block-view-api-v2 1.0.3+78d798af4f
+	   |-- fabric-blockrenderlayer-v1 1.1.45+78d798af4f
+	   |-- fabric-client-tags-api-v1 1.1.6+78d798af4f
+	   |-- fabric-command-api-v1 1.2.40+f71b366f4f
+	   |-- fabric-command-api-v2 2.2.19+78d798af4f
+	   |-- fabric-commands-v0 0.2.57+df3654b34f
+	   |-- fabric-containers-v0 0.1.81+df3654b34f
+	   |-- fabric-content-registries-v0 5.0.9+78d798af4f
+	   |-- fabric-convention-tags-v1 1.5.9+78d798af4f
+	   |-- fabric-crash-report-info-v1 0.2.22+78d798af4f
+	   |-- fabric-data-generation-api-v1 13.1.17+78d798af4f
+	   |-- fabric-dimensions-v1 2.1.60+78d798af4f
+	   |-- fabric-entity-events-v1 1.5.28+4ced05924f
+	   |-- fabric-events-interaction-v0 0.6.14+78d798af4f
+	   |-- fabric-events-lifecycle-v0 0.2.71+df3654b34f
+	   |-- fabric-game-rule-api-v1 1.0.45+78d798af4f
+	   |-- fabric-item-api-v1 2.1.34+78d798af4f
+	   |-- fabric-item-group-api-v1 4.0.20+78d798af4f
+	   |-- fabric-key-binding-api-v1 1.0.40+78d798af4f
+	   |-- fabric-keybindings-v0 0.2.38+df3654b34f
+	   |-- fabric-lifecycle-events-v1 2.2.29+78d798af4f
+	   |-- fabric-loot-api-v2 2.1.4+78d798af4f
+	   |-- fabric-message-api-v1 6.0.4+78d798af4f
+	   |-- fabric-mining-level-api-v1 2.1.59+78d798af4f
+	   |-- fabric-model-loading-api-v1 1.0.7+78d798af4f
+	   |-- fabric-models-v0 0.4.6+9386d8a74f
+	   |-- fabric-networking-api-v1 3.1.2+78d798af4f
+	   |-- fabric-object-builder-api-v1 13.0.7+78d798af4f
+	   |-- fabric-particles-v1 1.1.6+78d798af4f
+	   |-- fabric-recipe-api-v1 2.0.15+78d798af4f
+	   |-- fabric-registry-sync-v0 4.0.13+78d798af4f
+	   |-- fabric-renderer-api-v1 3.2.3+78d798af4f
+	   |-- fabric-renderer-indigo 1.5.3+78d798af4f
+	   |-- fabric-renderer-registries-v1 3.2.50+df3654b34f
+	   |-- fabric-rendering-data-attachment-v1 0.3.41+73761d2e4f
+	   |-- fabric-rendering-fluids-v1 3.0.32+78d798af4f
+	   |-- fabric-rendering-v0 1.1.53+df3654b34f
+	   |-- fabric-rendering-v1 3.0.12+78d798af4f
+	   |-- fabric-resource-conditions-api-v1 2.3.13+78d798af4f
+	   |-- fabric-resource-loader-v0 0.11.15+78d798af4f
+	   |-- fabric-screen-api-v1 2.0.16+78d798af4f
+	   |-- fabric-screen-handler-api-v1 1.3.50+78d798af4f
+	   |-- fabric-sound-api-v1 1.0.16+78d798af4f
+	   |-- fabric-transfer-api-v1 4.0.6+78d798af4f
+	   \-- fabric-transitive-access-wideners-v1 5.0.13+78d798af4f
+	- fabricloader 0.15.1
+	   \-- mixinextras 0.3.1
+	- ferritecore 6.0.3
+	- java 17
+	- lithium 0.12.0
+	- minecraft 1.20.4
+	- modernfix 5.10.2+mc1.20.4
+	- nochatreports 1.20.4-v2.5.0
+	   |-- fabric-rendering-v1 3.0.11+9468a19d32
+	   \-- fabric-screen-api-v1 2.0.15+f6e85ac232
+	- noisium 1.0.2+mc1.20.x
+	- threadtweak 1.20.4-0.1.2
+	- vmp 0.2.0+beta.7.135
+	   \-- com_ibm_async_asyncutil 0.1.0
+[01:12:54] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/home/runner/work/minecraft-smp/minecraft-smp/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[01:12:54] [main/INFO]: Compatibility level set to JAVA_16
+[01:12:54] [main/INFO]: Compatibility level set to JAVA_17
+[01:12:54] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[01:12:54] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[01:12:54] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[01:12:54] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[01:12:54] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[01:12:54] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[01:12:54] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[01:12:54] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
+[01:12:54] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[01:12:54] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[01:12:54] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[01:12:54] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[01:12:54] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[01:12:54] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[01:12:54] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[01:12:54] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunkio.mixin
+[01:12:54] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[01:12:54] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
+[01:12:54] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[01:12:54] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
+[01:12:54] [main/INFO]: Disabling com.ishland.c2me.threading.worldgen.mixin
+[01:12:54] [main/WARN]: Mod 'c2me' attempted to override option 'mixin.world.player_chunk_tick', which doesn't exist, ignoring
+[01:12:54] [main/WARN]: Option 'mixin.entity.collisions.fluid' requires 'mixin.experimental.entity.block_caching.fluid_pushing=false' but found 'true'. Setting 'mixin.entity.collisions.fluid=false'.
+[01:12:54] [main/INFO]: Loaded configuration file for Lithium: 125 options available, 5 override(s) found
+[01:12:54] [main/INFO]: Loaded configuration file for ModernFix 5.10.2+mc1.20.4: 52 options available, 13 override(s) found
+[01:12:54] [main/WARN]: Option 'mixin.bugfix.paper_chunk_patches' overriden (by mods [c2me]) to 'false'
+[01:12:54] [main/WARN]: Option 'mixin.perf.faster_item_rendering' overriden (by user configuration) to 'true'
+[01:12:54] [main/WARN]: Option 'mixin.perf.dynamic_resources' overriden (by user configuration) to 'true'
+[01:12:54] [main/WARN]: Option 'mixin.perf.cache_strongholds' overriden (by mods [c2me]) to 'false'
+[01:12:54] [main/WARN]: Option 'mixin.perf.clear_mixin_classinfo' overriden (by user configuration) to 'true'
+[01:12:54] [main/WARN]: Option 'mixin.perf.deduplicate_location' overriden (by user configuration) to 'true'
+[01:12:54] [main/WARN]: Option 'mixin.perf.dynamic_entity_renderers' overriden (by user configuration) to 'true'
+[01:12:54] [main/WARN]: Option 'mixin.perf.remove_spawn_chunks' overriden (by user configuration) to 'true'
+[01:12:54] [main/WARN]: Option 'mixin.perf.nbt_memory_usage' overriden (by mods [c2me]) to 'false'
+[01:12:54] [main/WARN]: Option 'mixin.perf.clear_fabric_mapping_tables' overriden (by user configuration) to 'true'
+[01:12:54] [main/WARN]: Option 'mixin.bugfix.packet_leak' overriden (by user configuration) to 'true'
+[01:12:54] [main/WARN]: Option 'mixin.bugfix.chunk_deadlock' overriden (by mods [c2me]) to 'false'
+[01:12:54] [main/WARN]: Option 'mixin.perf.thread_priorities' overriden (by mods [threadtweak]) to 'false'
+[01:12:54] [main/INFO]: Applying Nashorn fix
+[01:12:54] [main/INFO]: Successfully started async appender with [ServerGuiConsole, SysOut, File]
+[01:12:54] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/light/SWMRNibbleArray$SaveState (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/light/SWMRNibbleArray$SaveState)
+[01:12:55] [main/WARN]: Mixin malte0811.ferritecore.mixin.threaddetec.PalettedContainerMixin is disabled automatically as lithium is installed
+[01:12:55] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[01:12:55] [main/WARN]: Force-disabling mixin 'block.hopper.AbstractMinecartEntityMixin' as rule 'mixin.block.hopper' (added by user configuration) disables it and children
+[01:12:55] [main/WARN]: Force-disabling mixin 'block.hopper.ChestBoatEntityMixin' as rule 'mixin.block.hopper' (added by user configuration) disables it and children
+[01:12:55] [main/WARN]: Force-disabling mixin 'block.hopper.ComposterMixin$ComposterBlockComposterInventoryMixin' as rule 'mixin.block.hopper' (added by user configuration) disables it and children
+[01:12:55] [main/WARN]: Force-disabling mixin 'block.hopper.ComposterMixin$ComposterBlockDummyInventoryMixin' as rule 'mixin.block.hopper' (added by user configuration) disables it and children
+[01:12:55] [main/WARN]: Force-disabling mixin 'block.hopper.ComposterMixin$ComposterBlockFullComposterInventoryMixin' as rule 'mixin.block.hopper' (added by user configuration) disables it and children
+[01:12:55] [main/WARN]: Force-disabling mixin 'block.hopper.DefaultedListAccessor' as rule 'mixin.block.hopper' (added by user configuration) disables it and children
+[01:12:55] [main/WARN]: Force-disabling mixin 'block.hopper.DoubleInventoryAccessor' as rule 'mixin.block.hopper' (added by user configuration) disables it and children
+[01:12:55] [main/WARN]: Force-disabling mixin 'block.hopper.EntityAccessor' as rule 'mixin.block.hopper' (added by user configuration) disables it and children
+[01:12:55] [main/WARN]: Force-disabling mixin 'block.hopper.EntityDataObjectMixin' as rule 'mixin.block.hopper' (added by user configuration) disables it and children
+[01:12:55] [main/WARN]: Force-disabling mixin 'block.hopper.EntityTrackingSectionAccessor' as rule 'mixin.block.hopper' (added by user configuration) disables it and children
+[01:12:55] [main/WARN]: Force-disabling mixin 'block.hopper.HopperBlockEntityMixin' as rule 'mixin.block.hopper' (added by user configuration) disables it and children
+[01:12:55] [main/WARN]: Force-disabling mixin 'block.hopper.HopperBlockMixin' as rule 'mixin.block.hopper' (added by user configuration) disables it and children
+[01:12:55] [main/WARN]: Force-disabling mixin 'block.hopper.InventoryAccessors$InventoryAccessorAbstractFurnaceBlockEntity' as rule 'mixin.block.hopper' (added by user configuration) disables it and children
+[01:12:55] [main/WARN]: Force-disabling mixin 'block.hopper.InventoryAccessors$InventoryAccessorBarrelBlockEntity' as rule 'mixin.block.hopper' (added by user configuration) disables it and children
+[01:12:55] [main/WARN]: Force-disabling mixin 'block.hopper.InventoryAccessors$InventoryAccessorBrewingStandBlockEntity' as rule 'mixin.block.hopper' (added by user configuration) disables it and children
+[01:12:55] [main/WARN]: Force-disabling mixin 'block.hopper.InventoryAccessors$InventoryAccessorChestBlockEntity' as rule 'mixin.block.hopper' (added by user configuration) disables it and children
+[01:12:55] [main/WARN]: Force-disabling mixin 'block.hopper.InventoryAccessors$InventoryAccessorDispenserBlockEntity' as rule 'mixin.block.hopper' (added by user configuration) disables it and children
+[01:12:55] [main/WARN]: Force-disabling mixin 'block.hopper.InventoryAccessors$InventoryAccessorHopperBlockEntity' as rule 'mixin.block.hopper' (added by user configuration) disables it and children
+[01:12:55] [main/WARN]: Force-disabling mixin 'block.hopper.InventoryAccessors$InventoryAccessorShulkerBoxBlockEntity' as rule 'mixin.block.hopper' (added by user configuration) disables it and children
+[01:12:55] [main/WARN]: Force-disabling mixin 'block.hopper.InventoryAccessors$InventoryAccessorStorageMinecartEntity' as rule 'mixin.block.hopper' (added by user configuration) disables it and children
+[01:12:55] [main/WARN]: Force-disabling mixin 'block.hopper.InventoryMixin' as rule 'mixin.block.hopper' (added by user configuration) disables it and children
+[01:12:55] [main/WARN]: Force-disabling mixin 'block.hopper.ItemStackMixin' as rule 'mixin.block.hopper' (added by user configuration) disables it and children
+[01:12:55] [main/WARN]: Force-disabling mixin 'block.hopper.ScreenHandlerMixin' as rule 'mixin.block.hopper' (added by user configuration) disables it and children
+[01:12:55] [main/WARN]: Force-disabling mixin 'block.hopper.TypeFilterableListMixin' as rule 'mixin.block.hopper' (added by user configuration) disables it and children
+[01:12:55] [main/WARN]: Force-disabling mixin 'block.hopper.WorldMixin' as rule 'mixin.block.hopper' (added by user configuration) disables it and children
+[01:12:55] [main/WARN]: Force-disabling mixin 'block.hopper.worldedit_compat.WorldChunkMixin' as rule 'mixin.block.hopper' (added by user configuration) disables it and children
+[01:12:55] [main/WARN]: Force-disabling mixin 'experimental.chunk_tickets.ChunkTicketManagerMixin' as rule 'mixin.experimental.chunk_tickets' (added by user configuration) disables it and children
+[01:12:55] [main/WARN]: Force-disabling mixin 'world.explosions.ExplosionMixin' as rule 'mixin.world.explosions' (added by user configuration) disables it and children
+[01:12:55] [main/WARN]: Error loading class: net/minecraft/class_8673 (java.lang.ClassNotFoundException: net/minecraft/class_8673)
+[01:12:55] [main/WARN]: @Mixin target net.minecraft.class_8673 was not found modernfix-fabric.mixins.json:core.ClientCommonPacketListenerImplMixin from mod modernfix
+[01:12:55] [main/WARN]: Error loading class: net/minecraft/class_806 (java.lang.ClassNotFoundException: net/minecraft/class_806)
+[01:12:55] [main/WARN]: @Mixin target net.minecraft.class_806 was not found modernfix-fabric.mixins.json:perf.dynamic_resources.ItemOverridesFabricMixin from mod modernfix
+[01:12:55] [main/WARN]: Error loading class: net/minecraft/class_1088$class_7778 (java.lang.ClassNotFoundException: net/minecraft/class_1088$class_7778)
+[01:12:55] [main/WARN]: @Mixin target net.minecraft.class_1088$class_7778 was not found modernfix-fabric.mixins.json:perf.dynamic_resources.ModelBakerImplMixin from mod modernfix
+[01:12:55] [main/WARN]: Error loading class: net/minecraft/class_757 (java.lang.ClassNotFoundException: net/minecraft/class_757)
+[01:12:55] [main/WARN]: @Mixin target net.minecraft.class_757 was not found modernfix-common.mixins.json:perf.faster_item_rendering.GameRendererMixin from mod modernfix
+[01:12:55] [main/WARN]: Error loading class: net/minecraft/class_918 (java.lang.ClassNotFoundException: net/minecraft/class_918)
+[01:12:55] [main/WARN]: @Mixin target net.minecraft.class_918 was not found modernfix-common.mixins.json:perf.faster_item_rendering.ItemRendererMixin from mod modernfix
+[01:12:55] [main/WARN]: Error loading class: net/minecraft/class_763 (java.lang.ClassNotFoundException: net/minecraft/class_763)
+[01:12:55] [main/WARN]: @Mixin target net.minecraft.class_763 was not found modernfix-common.mixins.json:perf.dynamic_resources.ItemModelShaperMixin from mod modernfix
+[01:12:55] [main/WARN]: Error loading class: net/minecraft/class_1092 (java.lang.ClassNotFoundException: net/minecraft/class_1092)
+[01:12:55] [main/WARN]: @Mixin target net.minecraft.class_1092 was not found modernfix-common.mixins.json:perf.dynamic_resources.ModelManagerMixin from mod modernfix
+[01:12:55] [main/WARN]: Error loading class: net/minecraft/class_806 (java.lang.ClassNotFoundException: net/minecraft/class_806)
+[01:12:55] [main/WARN]: @Mixin target net.minecraft.class_806 was not found modernfix-common.mixins.json:perf.dynamic_resources.ItemOverridesMixin from mod modernfix
+[01:12:55] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.1).
+[01:12:55] [main/INFO]: ThreadTweak config initialized
+[01:12:57] [main/INFO]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[01:12:57] [main/INFO]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[01:12:57] [main/INFO]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[01:12:58] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[01:13:00] [main/INFO]: Vanilla bootstrap took 3519 milliseconds
+[01:13:00] [main/INFO]: Loading Noisium.
+[01:13:00] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[01:13:00] [main/INFO]: Bypassed Mojang DFU
+[01:13:00] [main/INFO]: Found new data pack fabric, loading it automatically
+[01:13:00] [main/INFO]: Found new data pack file/five_hours.zip, loading it automatically
+[01:13:01] [main/INFO]: No existing world data, creating new world
+[01:13:02] [main/INFO]: Loaded 7 recipes
+[01:13:02] [main/INFO]: Loaded 1271 advancements
+[01:13:02] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 1.722 ms
+[01:13:02] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[01:13:02] [Server thread/INFO]: Loading properties
+[01:13:02] [Server thread/INFO]: Default game type: SURVIVAL
+[01:13:02] [Server thread/INFO]: Generating keypair
+[01:13:02] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:13:02] [Server thread/INFO]: Using epoll channel type
+[01:13:02] [Server thread/INFO]: Preparing level "world"
+[01:13:03] [Server thread/INFO]: Enforcing safe world random access
+[01:13:08] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:13:08] [Server thread/INFO]: Time elapsed: 32 ms
+[01:13:08] [Server thread/INFO]: Done (5.107s)! For help, type "help"
+[01:13:08] [Server thread/WARN]: Dedicated server took 15.043 seconds to load
+[01:13:08] [Worker-ResourceReload-0/INFO]: Force-loading class net.minecraft.class_7788
+[01:13:08] [Worker-ResourceReload-0/INFO]: Force-loading class net.minecraft.class_3898$class_3208
+[01:13:08] [Worker-ResourceReload-0/INFO]: Force-loading class net.minecraft.class_5361
+[01:13:08] [Worker-ResourceReload-0/INFO]: Force-loading class net.minecraft.class_4590
+[01:13:08] [Worker-ResourceReload-0/INFO]: Force-loading class net.minecraft.class_2852
+[01:13:08] [Worker-ResourceReload-0/INFO]: Force-loading class net.minecraft.class_7782
+[01:13:08] [Worker-ResourceReload-0/INFO]: Force-loading class net.minecraft.class_3304
+[01:13:08] [Worker-ResourceReload-0/INFO]: Force-loading class net.minecraft.class_55$class_56
+[01:13:08] [Worker-ResourceReload-0/INFO]: Force-loading class net.minecraft.class_3421
+[01:13:08] [Worker-ResourceReload-0/INFO]: Force-loading class net.minecraft.class_7422
+[01:13:08] [Worker-ResourceReload-0/INFO]: Force-loading class net.minecraft.class_2926
+[01:13:08] [Worker-ResourceReload-0/INFO]: Force-loading class net.minecraft.class_2405
+[01:13:08] [Worker-ResourceReload-0/INFO]: Force-loading class com.mojang.datafixers.types.templates.TaggedChoice$TaggedChoiceType
+[01:13:08] [Worker-ResourceReload-0/INFO]: Force-loading class net.minecraft.class_3853$class_4162
+[01:13:08] [Worker-ResourceReload-0/INFO]: Force-loading class net.minecraft.class_3231
+[01:13:08] [Server thread/INFO]: [Server] Cancelling any scheduled shutdowns.
+[01:13:08] [Worker-ResourceReload-0/INFO]: Force-loading class net.minecraft.class_2818$class_5564
+[01:13:08] [Worker-ResourceReload-0/INFO]: Force-loading class net.minecraft.class_5454
+[01:13:08] [Worker-ResourceReload-0/INFO]: Force-loading class net.minecraft.class_4243
+[01:13:08] [Server thread/INFO]: [Server] The server will close in five hours.
+[01:13:08] [Worker-ResourceReload-0/INFO]: Force-loading class net.minecraft.class_2818$class_5563
+[01:13:08] [Worker-ResourceReload-0/INFO]: Force-loading class net.minecraft.class_5572
+[01:13:08] [Worker-ResourceReload-0/INFO]: Force-loading class net.minecraft.class_8603
+[01:13:08] [Worker-ResourceReload-0/INFO]: Force-loading class net.minecraft.class_6306
+[01:13:08] [Worker-ResourceReload-0/INFO]: Force-loading class net.minecraft.class_6
+[01:13:08] [Worker-ResourceReload-0/INFO]: Force-loading class net.minecraft.class_5131
+[01:13:08] [Worker-ResourceReload-0/INFO]: Force-loading class net.minecraft.class_3131$class_3132
+[01:13:08] [Worker-ResourceReload-0/INFO]: Force-loading class net.minecraft.class_3244$1
+[01:13:08] [Worker-ResourceReload-0/INFO]: Force-loading class net.minecraft.class_3366$class_3388
+[01:13:08] [Worker-ResourceReload-0/INFO]: Force-loading class net.minecraft.class_6749
+[01:13:08] [Worker-ResourceReload-0/INFO]: Force-loading class net.minecraft.class_6540$class_6541
+[01:13:08] [Worker-ResourceReload-0/INFO]: Force-loading class net.minecraft.class_2985
+[01:13:08] [Worker-ResourceReload-0/INFO]: Force-loading class net.minecraft.class_2545
+[01:13:08] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[01:13:08] [Server thread/INFO]: <--[HERE]
+[01:13:08] [Server thread/INFO]: Nothing changed. The player already is an operator
+[01:13:08] [Worker-ResourceReload-0/INFO]: Force-loading class net.minecraft.class_1258
+[01:13:08] [Worker-ResourceReload-0/INFO]: Force-loading class net.minecraft.class_6540
+[01:13:08] [Worker-ResourceReload-0/INFO]: Force-loading class net.minecraft.class_4246
+[01:13:08] [Worker-ResourceReload-0/INFO]: Force-loading class net.minecraft.class_3390$class_3404
+[01:13:08] [Worker-ResourceReload-0/INFO]: Force-loading class net.minecraft.class_3962$class_3963
+[01:13:08] [Worker-ResourceReload-0/INFO]: Force-loading class net.minecraft.class_3509
+[01:13:08] [Worker-ResourceReload-0/INFO]: Force-loading class net.minecraft.class_4916
+[01:13:08] [Worker-ResourceReload-0/INFO]: Force-loading class net.minecraft.class_3962$class_3964
+[01:13:08] [Worker-ResourceReload-0/INFO]: Force-loading class net.minecraft.class_3962$class_3925
+[01:13:08] [Worker-ResourceReload-0/INFO]: Force-loading class net.minecraft.class_4010
+[01:13:08] [Worker-ResourceReload-0/INFO]: Force-loading class net.minecraft.class_4097
+[01:13:08] [Worker-ResourceReload-0/INFO]: Force-loading class net.minecraft.class_4095
+[01:13:08] [Worker-ResourceReload-0/INFO]: Force-loading class net.minecraft.class_6032
+[01:13:08] [Worker-ResourceReload-0/INFO]: Force-loading class net.minecraft.class_3248
+[01:13:08] [Worker-ResourceReload-0/INFO]: Force-loading class net.minecraft.class_2248$class_2249
+[01:13:08] [Worker-ResourceReload-0/INFO]: Force-loading class net.minecraft.class_2674
+[01:13:08] [Worker-ResourceReload-0/INFO]: Force-loading class net.minecraft.class_3244
+[01:13:08] [Worker-ResourceReload-0/INFO]: Force-loading class net.minecraft.class_2474
+[01:13:08] [Worker-ResourceReload-0/INFO]: Force-loading class net.minecraft.class_3495
+[01:13:08] [Worker-ResourceReload-0/INFO]: Force-loading class net.minecraft.class_3471$class_3474
+[01:13:08] [Worker-ResourceReload-0/INFO]: Force-loading class net.minecraft.class_5579$class_5580
+[01:13:08] [Worker-ResourceReload-0/INFO]: Force-loading class net.minecraft.class_3471$class_3476
+[01:13:08] [Worker-ResourceReload-0/INFO]: Force-loading class net.minecraft.class_1950
+[01:13:08] [Worker-ResourceReload-0/INFO]: Force-loading class net.minecraft.class_6032$class_6033
+[01:13:08] [Worker-ResourceReload-0/INFO]: Force-loading class net.minecraft.class_6640
+[01:13:08] [Worker-ResourceReload-0/INFO]: Force-loading class net.minecraft.class_1355
+[01:13:08] [Worker-ResourceReload-0/INFO]: Force-loading class net.minecraft.class_4983
+[01:13:08] [Worker-ResourceReload-0/INFO]: Force-loading class net.minecraft.class_4103
+[01:13:08] [Worker-ResourceReload-0/INFO]: Force-loading class com.mojang.datafixers.types.templates.TaggedChoice
+[01:13:08] [Worker-ResourceReload-0/INFO]: Force-loading class net.minecraft.class_4103$class_4104
+[01:13:08] [Worker-ResourceReload-0/WARN]: Cleared mixin data structures
+[01:13:30] [User Authenticator #1/INFO]: UUID of player AdamRaichu is 2a1ce6a8-b8bd-4160-b4e2-87497f83c6c9
+[01:13:31] [Server thread/INFO]: AdamRaichu[IP hidden] logged in with entity id 1 at (3.5, 85.0, 1.5)
+[01:13:31] [Server thread/INFO]: AdamRaichu joined the game
+[01:13:35] [Server thread/INFO]: Async chunk loading for player AdamRaichu completed
+[01:15:55] [Server thread/INFO]: [AdamRaichu: Gamerule doDaylightCycle is now set to: false]
+[01:19:04] [Server thread/INFO]: AdamRaichu lost connection: Disconnected
+[01:19:04] [Server thread/INFO]: AdamRaichu left the game
+[01:19:45] [User Authenticator #2/INFO]: UUID of player dragonflylll is 341d10b4-5815-447c-8d75-992b81d81a47
+[01:19:47] [Server thread/INFO]: dragonflylll[IP hidden] logged in with entity id 1144 at (-9.5, 93.0, 7.5)
+[01:19:47] [Server thread/INFO]: dragonflylll joined the game
+[01:19:47] [Server thread/INFO]: Async chunk loading for player dragonflylll completed
+[01:22:58] [User Authenticator #3/INFO]: UUID of player AdamRaichu is 2a1ce6a8-b8bd-4160-b4e2-87497f83c6c9
+[01:22:59] [Server thread/INFO]: AdamRaichu[IP hidden] logged in with entity id 1919 at (9.51387346525762, 96.0, 3.358569465282823)
+[01:22:59] [Server thread/INFO]: AdamRaichu joined the game
+[01:22:59] [Server thread/INFO]: Async chunk loading for player AdamRaichu completed
+[01:25:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-19, y=97, z=23} class_2338{x=13, y=90, z=14}
+[01:25:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-19, y=97, z=23} class_2338{x=13, y=89, z=14}
+[01:25:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-19, y=97, z=23} class_2338{x=13, y=90, z=14}
+[01:25:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-19, y=97, z=23} class_2338{x=13, y=90, z=14}
+[01:25:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-19, y=97, z=23} class_2338{x=13, y=89, z=14}
+[01:25:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-19, y=97, z=23} class_2338{x=13, y=88, z=14}
+[01:25:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-19, y=97, z=23} class_2338{x=6, y=91, z=10}
+[01:25:26] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-19, y=97, z=23} class_2338{x=9, y=94, z=-4}
+[01:25:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-19, y=97, z=23} class_2338{x=8, y=95, z=-9}
+[01:25:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-19, y=97, z=23} class_2338{x=8, y=94, z=-9}
+[01:25:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-19, y=97, z=23} class_2338{x=8, y=95, z=-9}
+[01:25:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-19, y=97, z=23} class_2338{x=8, y=94, z=-9}
+[01:25:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-19, y=97, z=23} class_2338{x=8, y=94, z=-9}
+[01:25:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-19, y=97, z=23} class_2338{x=8, y=94, z=-9}
+[01:25:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-19, y=97, z=23} class_2338{x=9, y=95, z=-9}
+[01:26:25] [Server thread/WARN]: dragonflylll moved too quickly! -6.6904596901190345,-7.794347429588754,-2.527023763932819
+[01:26:27] [Server thread/INFO]: dragonflylll fell from a high place
+[01:26:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=3, y=85, z=-2}
+[01:26:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=3, y=85, z=-3}
+[01:26:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=4, y=85, z=-3}
+[01:27:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=8, y=93, z=2}
+[01:27:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=9, y=94, z=2}
+[01:27:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=8, y=93, z=1}
+[01:27:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=7, y=93, z=2}
+[01:27:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-13, y=72, z=-6}
+[01:27:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-13, y=71, z=-6}
+[01:28:02] [Server thread/INFO]: dragonflylll fell from a high place
+[01:28:08] [Server thread/INFO]: AdamRaichu fell from a high place
+[01:28:31] [Server thread/INFO]: [AdamRaichu: Set dragonflylll's game mode to Adventure Mode]
+[01:31:30] [Server thread/INFO]: [AdamRaichu: Set dragonflylll's game mode to Survival Mode]
+[01:32:15] [Server thread/INFO]: [AdamRaichu: Set own game mode to Creative Mode]
+[01:33:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-45, y=91, z=23} class_2338{x=9, y=95, z=2}
+[01:33:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-45, y=91, z=23} class_2338{x=9, y=95, z=2}
+[01:33:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-45, y=91, z=23} class_2338{x=9, y=95, z=3}
+[01:33:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-45, y=91, z=23} class_2338{x=9, y=95, z=4}
+[01:34:12] [Server thread/INFO]: [AdamRaichu: Set dragonflylll's game mode to Adventure Mode]
+[01:34:38] [Server thread/INFO]: [AdamRaichu: Gave 1 [Wooden Axe] to dragonflylll]
+[01:36:28] [User Authenticator #4/INFO]: UUID of player QuEsoDILLO85 is e26d6a0e-36e1-49b6-9f56-93eee3852897
+[01:36:30] [Server thread/INFO]: QuEsoDILLO85[IP hidden] logged in with entity id 4293 at (-7.5, 94.0, 7.5)
+[01:36:30] [Server thread/INFO]: QuEsoDILLO85 joined the game
+[01:36:30] [Server thread/INFO]: Async chunk loading for player QuEsoDILLO85 completed
+[01:36:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-3, y=93, z=9}
+[01:36:57] [Server thread/INFO]: [AdamRaichu: Removed 3 item(s) from player dragonflylll]
+[01:37:03] [Server thread/INFO]: [AdamRaichu: Removed 1 item(s) from player QuEsoDILLO85]
+[01:37:10] [Server thread/INFO]: [AdamRaichu: Set dragonflylll's game mode to Survival Mode]
+[01:37:14] [Server thread/INFO]: [AdamRaichu: Set own game mode to Survival Mode]
+[01:37:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-45, y=91, z=23} class_2338{x=8, y=95, z=3}
+[01:37:17] [Server thread/INFO]: dragonflylll was doomed to fall by AdamRaichu
+[01:37:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=3, y=90, z=-3}
+[01:37:24] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=3, y=90, z=-3}
+[01:37:25] [Server thread/INFO]: AdamRaichu fell from a high place
+[01:37:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=13, y=88, z=14}
+[01:37:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=13, y=87, z=13}
+[01:38:15] [Server thread/INFO]: QuEsoDILLO85 was slain by AdamRaichu
+[01:38:23] [Server thread/INFO]: <QuEsoDILLO85> nerd
+[01:38:27] [Server thread/INFO]: dragonflylll was slain by AdamRaichu
+[01:38:33] [Server thread/INFO]: AdamRaichu was slain by QuEsoDILLO85
+[01:38:50] [Server thread/INFO]: [AdamRaichu: Gamerule doDaylightCycle is now set to: true]
+[01:39:03] [Server thread/INFO]: QuEsoDILLO85 was slain by dragonflylll
+[01:40:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-8, y=98, z=-16}
+[01:40:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-8, y=99, z=-16}
+[01:41:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-28, y=93, z=30} class_2338{x=-2, y=87, z=11}
+[01:41:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-28, y=93, z=30} class_2338{x=-4, y=87, z=12}
+[01:41:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-28, y=93, z=30} class_2338{x=-5, y=87, z=12}
+[01:42:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=6, y=102, z=-21} class_2338{x=2, y=90, z=-13}
+[01:42:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=6, y=102, z=-21} class_2338{x=2, y=90, z=-13}
+[01:42:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=6, y=102, z=-21} class_2338{x=1, y=90, z=-13}
+[01:42:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=6, y=102, z=-21} class_2338{x=4, y=89, z=-13}
+[01:43:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-28, y=93, z=30} class_2338{x=-15, y=91, z=16}
+[01:46:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=6, y=102, z=-21} class_2338{x=-11, y=91, z=-9}
+[01:46:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=6, y=102, z=-21} class_2338{x=-10, y=91, z=-10}
+[01:46:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=6, y=102, z=-21} class_2338{x=-11, y=91, z=-9}
+[01:47:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=6, y=102, z=-21} class_2338{x=-11, y=93, z=-9}
+[01:47:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=6, y=102, z=-21} class_2338{x=-10, y=93, z=-14}
+[01:47:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=6, y=102, z=-21} class_2338{x=-10, y=92, z=-13}
+[01:47:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=6, y=102, z=-21} class_2338{x=-10, y=93, z=-14}
+[01:47:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=6, y=102, z=-21} class_2338{x=-10, y=94, z=-15}
+[01:47:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=6, y=102, z=-21} class_2338{x=-10, y=93, z=-14}
+[01:47:06] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=6, y=102, z=-21} class_2338{x=-9, y=95, z=-15}
+[01:47:06] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=6, y=102, z=-21} class_2338{x=-8, y=96, z=-15}
+[01:47:06] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=6, y=102, z=-21} class_2338{x=-8, y=97, z=-15}
+[01:47:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=6, y=102, z=-21} class_2338{x=-9, y=96, z=-11}
+[01:48:38] [Server thread/INFO]: QuEsoDILLO85 has made the advancement [Stone Age]
+[01:49:10] [Server thread/INFO]: [AdamRaichu: Teleported AdamRaichu to -13.540000, 94.000000, 9.080000]
+[01:49:25] [Server thread/INFO]: QuEsoDILLO85 has made the advancement [Getting an Upgrade]
+[01:49:26] [Server thread/INFO]: dragonflylll has made the advancement [Stone Age]
+[01:49:54] [Server thread/INFO]: AdamRaichu fell from a high place
+[01:50:12] [Server thread/INFO]: dragonflylll has made the advancement [Monster Hunter]
+[01:51:12] [Server thread/INFO]: dragonflylll was shot by Skeleton
+[01:52:33] [Server thread/INFO]: QuEsoDILLO85 fell from a high place
+[01:52:51] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-6, y=83, z=-5}
+[01:54:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=0, y=79, z=-6}
+[01:54:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=0, y=80, z=-3}
+[01:54:54] [Server thread/INFO]: [AdamRaichu: Teleported QuEsoDILLO85 to AdamRaichu]
+[01:56:09] [Server thread/INFO]: AdamRaichu has made the advancement [Stone Age]
+[01:56:28] [Server thread/INFO]: AdamRaichu has made the advancement [Getting an Upgrade]
+[01:57:03] [Server thread/INFO]: QuEsoDILLO85 was slain by dragonflylll
+[01:57:07] [Server thread/INFO]: dragonflylll has made the advancement [Getting an Upgrade]
+[01:57:52] [Server thread/INFO]: QuEsoDILLO85 fell from a high place
+[01:58:34] [Server thread/INFO]: <dragonflylll> -147 120 105
+[01:59:58] [Server thread/INFO]: QuEsoDILLO85 was doomed to fall by Wolf
+[02:06:47] [Server thread/INFO]: QuEsoDILLO85 was slain by dragonflylll
+[02:06:53] [Server thread/INFO]: [AdamRaichu: Created new objective [hp]]
+[02:07:03] [Server thread/INFO]: QuEsoDILLO85 lost connection: Disconnected
+[02:07:03] [Server thread/INFO]: QuEsoDILLO85 left the game
+[02:07:05] [Server thread/INFO]: [AdamRaichu: Set display slot sidebar to show objective hp]
+[02:07:15] [User Authenticator #5/INFO]: UUID of player QuEsoDILLO85 is e26d6a0e-36e1-49b6-9f56-93eee3852897
+[02:07:16] [Server thread/INFO]: QuEsoDILLO85[IP hidden] logged in with entity id 10826 at (9.5, 94.0, -9.5)
+[02:07:16] [Server thread/INFO]: QuEsoDILLO85 joined the game
+[02:07:16] [Server thread/INFO]: Async chunk loading for player QuEsoDILLO85 completed
+[02:07:30] [Server thread/INFO]: QuEsoDILLO85 fell from a high place
+[02:07:30] [Server thread/INFO]: [AdamRaichu: Set display slot list to show objective hp]
+[02:07:40] [Server thread/INFO]: QuEsoDILLO85 fell from a high place
+[02:07:48] [Server thread/INFO]: QuEsoDILLO85 fell from a high place
+[02:08:06] [Server thread/INFO]: [AdamRaichu: Cleared display name for 3 entities in [hp]]
+[02:08:37] [Server thread/INFO]: QuEsoDILLO85 was shot by Skeleton
+[02:12:36] [Server thread/INFO]: QuEsoDILLO85 has made the advancement [Monster Hunter]
+[02:17:06] [Server thread/INFO]: QuEsoDILLO85 was slain by AdamRaichu
+[02:19:33] [Server thread/INFO]: AdamRaichu has made the advancement [Monster Hunter]
+[02:24:04] [Server thread/INFO]: dragonflylll was slain by QuEsoDILLO85
+[02:26:49] [Server thread/INFO]: QuEsoDILLO85 was slain by dragonflylll
+[02:26:51] [Server thread/INFO]: dragonflylll has made the advancement [Sweet Dreams]
+[02:27:24] [Server thread/INFO]: <QuEsoDILLO85> >:(
+[02:27:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-4, y=79, z=0}
+[02:27:34] [Server thread/INFO]: <QuEsoDILLO85> I DID NOT
+[02:27:39] [Server thread/INFO]: <QuEsoDILLO85> oop cps lock
+[02:27:49] [Server thread/INFO]: <QuEsoDILLO85> i
+[02:27:51] [Server thread/INFO]: <QuEsoDILLO85> AM
+[02:27:53] [Server thread/INFO]: <QuEsoDILLO85> NOT
+[02:27:59] [Server thread/INFO]: <QuEsoDILLO85> MICAIAH
+[02:28:11] [Server thread/INFO]: QuEsoDILLO85 fell from a high place
+[02:28:23] [Server thread/INFO]: <QuEsoDILLO85> what'
+[02:28:33] [Server thread/INFO]: <QuEsoDILLO85> your wierd
+[02:28:46] [Server thread/INFO]: <QuEsoDILLO85> "hm"
+[02:28:49] [Server thread/INFO]: <dragonflylll> *you're
+[02:28:55] [Server thread/INFO]: <QuEsoDILLO85> oh
+[02:29:07] [Server thread/INFO]: <QuEsoDILLO85> I am an operator now
+[02:29:12] [Server thread/INFO]: <QuEsoDILLO85> noooooooo
+[02:29:15] [Server thread/INFO]: <dragonflylll> inevitable
+[02:30:16] [Server thread/INFO]: <QuEsoDILLO85> you always come back
+[02:30:38] [Server thread/INFO]: <QuEsoDILLO85> its a quote from a bad guy
+[02:30:49] [Server thread/INFO]: <QuEsoDILLO85> erm
+[02:30:51] [Server thread/INFO]: <QuEsoDILLO85> dream
+[02:31:01] [Server thread/INFO]: <QuEsoDILLO85> is irrelvn=ent nowadays'
+[02:31:07] [Server thread/INFO]: QuEsoDILLO85 has made the advancement [Sweet Dreams]
+[02:31:25] [Server thread/INFO]: dragonflylll was slain by QuEsoDILLO85
+[02:31:39] [Server thread/INFO]: <QuEsoDILLO85> whatchu gunna do?
+[02:31:45] [Server thread/INFO]: QuEsoDILLO85 was slain by dragonflylll
+[02:31:50] [Server thread/INFO]: <QuEsoDILLO85> fair
+[02:33:31] [Server thread/INFO]: QuEsoDILLO85 lost connection: Disconnected
+[02:33:31] [Server thread/INFO]: QuEsoDILLO85 left the game
+[02:33:41] [Server thread/WARN]: Birch Boat (vehicle of dragonflylll) moved wrongly! 0.29227488806299107
+[02:33:41] [Server thread/WARN]: Birch Boat (vehicle of dragonflylll) moved wrongly! 0.5103409234317127
+[02:33:41] [Server thread/WARN]: Birch Boat (vehicle of dragonflylll) moved wrongly! 0.7332329839701117
+[02:33:41] [Server thread/WARN]: Birch Boat (vehicle of dragonflylll) moved wrongly! 0.9595470073851828
+[02:34:33] [Server thread/INFO]: [AdamRaichu: Made Dream a server operator]
+[02:34:38] [Server thread/INFO]: [AdamRaichu: Made Dream no longer a server operator]
+[02:35:38] [Server thread/INFO]: AdamRaichu has made the advancement [Acquire Hardware]
+[02:35:47] [Server thread/INFO]: <dragonflylll> never gonna give you up never gonna let you down
+[02:36:42] [Server thread/INFO]: AdamRaichu has made the advancement [Isn't It Iron Pick]
+[02:39:22] [Server thread/INFO]: AdamRaichu has made the advancement [Sneak 100]
+[02:40:02] [Server thread/INFO]: <dragonflylll> t
+[02:45:47] [User Authenticator #6/INFO]: UUID of player QuEsoDILLO85 is e26d6a0e-36e1-49b6-9f56-93eee3852897
+[02:45:49] [Server thread/INFO]: QuEsoDILLO85[IP hidden] logged in with entity id 21640 at (-70.45659266463038, 75.0, 129.08359415212672)
+[02:45:49] [Server thread/INFO]: QuEsoDILLO85 joined the game
+[02:45:49] [Server thread/INFO]: Async chunk loading for player QuEsoDILLO85 completed
+[02:46:32] [Server thread/INFO]: <QuEsoDILLO85> nice
+[02:46:37] [Server thread/INFO]: <QuEsoDILLO85> oh wait
+[02:47:32] [Server thread/INFO]: dragonflylll was slain by QuEsoDILLO85
+[02:48:22] [Server thread/INFO]: [AdamRaichu: Applied effect Speed to QuEsoDILLO85]
+[02:48:25] [Server thread/WARN]: QuEsoDILLO85 moved too quickly! -0.1920872652736989,-0.07840000152587834,-10.966745344207354
+[02:48:55] [Server thread/INFO]: [AdamRaichu: Applied effect Jump Boost to dragonflylll]
+[02:49:20] [Server thread/WARN]: QuEsoDILLO85 moved wrongly!
+[02:49:21] [Server thread/INFO]: [AdamRaichu: Removed every effect from QuEsoDILLO85]
+[02:49:23] [Server thread/INFO]: dragonflylll lost connection: Timed out
+[02:49:23] [Server thread/INFO]: dragonflylll left the game
+[02:49:23] [Server thread/WARN]: handleDisconnection() called twice
+[02:52:31] [Server thread/INFO]: QuEsoDILLO85 has made the advancement [Take Aim]
+[02:54:48] [User Authenticator #7/INFO]: UUID of player dragonflylll is 341d10b4-5815-447c-8d75-992b81d81a47
+[02:54:49] [Server thread/INFO]: dragonflylll[IP hidden] logged in with entity id 24860 at (-146.57963452674412, 127.0, 108.06735686034864)
+[02:54:49] [Server thread/INFO]: dragonflylll joined the game
+[02:54:49] [Server thread/INFO]: Async chunk loading for player dragonflylll completed
+[02:54:50] [Server thread/INFO]: AdamRaichu lost connection: Disconnected
+[02:54:50] [Server thread/INFO]: AdamRaichu left the game
+[03:12:19] [Server thread/INFO]: QuEsoDILLO85 has made the advancement [Best Friends Forever]
+[03:14:12] [Server thread/INFO]: QuEsoDILLO85 has made the advancement [Acquire Hardware]
+[03:27:12] [Server thread/WARN]: Horse (vehicle of QuEsoDILLO85) moved wrongly! 0.389888886169274
+[03:27:12] [Server thread/WARN]: Horse (vehicle of QuEsoDILLO85) moved wrongly! 0.7840713898522154
+[03:29:21] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-104, y=91, z=235} class_2338{x=-104, y=90, z=236}
+[03:29:21] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-104, y=91, z=235} class_2338{x=-104, y=90, z=236}
+[03:29:21] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-103, y=91, z=235} class_2338{x=-102, y=89, z=235}
+[03:30:59] [Server thread/INFO]: QuEsoDILLO85 has made the advancement [Not Today, Thank You]
+[03:36:05] [Server thread/INFO]: <QuEsoDILLO85> 882.12 96.00 142.09 -1687.81 38.07
+[03:41:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=736, y=64, z=-166} class_2338{x=737, y=62, z=-166}
+[03:42:24] [Server thread/INFO]: dragonflylll has made the advancement [Best Friends Forever]
+[03:48:19] [Server thread/INFO]: QuEsoDILLO85 lost connection: Disconnected
+[03:48:19] [Server thread/INFO]: QuEsoDILLO85 left the game
+[03:48:23] [Server thread/INFO]: dragonflylll lost connection: Disconnected
+[03:48:23] [Server thread/INFO]: dragonflylll left the game
+[05:13:08] [Server thread/INFO]: [Server] The server will close in one hour.
+[05:58:08] [Server thread/INFO]: [Server] The server will close in fifteen minutes.
